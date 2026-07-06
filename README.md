@@ -22,11 +22,11 @@ WordPress plugin — Elementor widget with **normal image**, **hover image**, **
 
 ## Demo setup (aap ki images jaisa)
 
-1. **Choose Image** — bina hover wali photo (HYVEST portrait).
+1. **Choose Image** — bina hover wali photo.
 2. **Hover Image** — hover wali dusri photo.
 3. **Show Overlay on Hover** — ON.
 4. **Heading** — e.g. team member name.
 5. **Rich Text** — bio / description.
-6. **Overlay → Background Color** — dark semi-transparent (default `rgba(0,0,0,0.55)`).
+6. **Overlay → Background Color** — dark semi-transparent .
 
 Hover par image swap + overlay + text dikhega.
