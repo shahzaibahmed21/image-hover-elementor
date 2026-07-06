@@ -1,0 +1,123 @@
+.ihe-widget {
+	display: block;
+	width: 100%;
+}
+
+.ihe-inner {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	line-height: 0;
+}
+
+.ihe-inner--align-left {
+	text-align: left;
+}
+
+.ihe-inner--align-center {
+	text-align: center;
+}
+
+.ihe-inner--align-right {
+	text-align: right;
+}
+
+.ihe-link {
+	display: inline-block;
+	max-width: 100%;
+	text-decoration: none;
+	color: inherit;
+}
+
+.ihe-images {
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.ihe-img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.ihe-img--hover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0;
+}
+
+.ihe-has-hover-image:hover .ihe-img--normal,
+.ihe-has-hover-image.ihe-is-hover .ihe-img--normal {
+	opacity: 0;
+}
+
+.ihe-has-hover-image:hover .ihe-img--hover,
+.ihe-has-hover-image.ihe-is-hover .ihe-img--hover {
+	opacity: 1;
+}
+
+.ihe-overlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.4s ease, visibility 0.4s ease;
+	pointer-events: none;
+	z-index: 2;
+}
+
+.ihe-widget:hover .ihe-overlay,
+.ihe-widget.ihe-is-hover .ihe-overlay {
+	opacity: 1;
+	visibility: visible;
+}
+
+.ihe-overlay-content {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+	pointer-events: auto;
+}
+
+.ihe-heading {
+	margin: 0 0 10px;
+	line-height: 1.3;
+}
+
+.ihe-text {
+	line-height: 1.6;
+}
+
+.ihe-text p:last-child {
+	margin-bottom: 0;
+}
+
+.ihe-caption {
+	display: block;
+	margin-top: 10px;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.ihe-widget--effect-zoom .ihe-img--normal {
+	transition: opacity 0.4s ease, transform 0.5s ease;
+}
+
+.ihe-widget--effect-zoom:hover .ihe-img--hover,
+.ihe-widget--effect-zoom.ihe-is-hover .ihe-img--hover {
+	transform: scale(1.05);
+}
