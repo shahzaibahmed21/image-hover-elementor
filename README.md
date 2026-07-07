@@ -1,16 +1,16 @@
 # Image Hover for Elementor
 
-WordPress plugin — Elementor widget with **normal image**, **hover image**, **overlay**, **heading**, and **rich text**.
+A WordPress plugin that adds an Elementor widget with **normal image**, **hover image**, **overlay**, **heading**, and **rich text** support.
 
-## Install (Urdu / English)
+## Installation
 
-1. `image-hover-elementor` folder ko zip karein.
-2. WordPress → **Plugins → Add New → Upload Plugin** se upload karein.
-3. Plugin **activate** karein (Elementor / Elementor Pro pehle se on hona chahiye).
-4. Kisi page ko Elementor se edit karein.
-5. Widget panel mein **"Image Hover"** search karein (category: **Image Hover** ya **Basic**).
+1. Zip the `image-hover-elementor` folder.
+2. Upload it via **Plugins → Add New → Upload Plugin** in WordPress.
+3. **Activate** the plugin (Elementor / Elementor Pro must already be active).
+4. Edit any page with Elementor.
+5. Search for **"Image Hover"** in the widget panel (category: **Image Hover** or **Basic**).
 
-## Sidebar controls
+## Sidebar Controls
 
 | Section | Options |
 |--------|---------|
@@ -20,13 +20,13 @@ WordPress plugin — Elementor widget with **normal image**, **hover image**, **
 | **Style → Overlay** | Background color, padding, text position |
 | **Style → Heading / Rich Text** | Colors, typography |
 
-## Demo setup (aap ki images jaisa)
+## Demo Setup
 
-1. **Choose Image** — bina hover wali photo.
-2. **Hover Image** — hover wali dusri photo.
-3. **Show Overlay on Hover** — ON.
+1. **Choose Image** — the default (non-hover) photo.
+2. **Hover Image** — the photo shown on hover.
+3. **Show Overlay on Hover** — set to ON.
 4. **Heading** — e.g. team member name.
 5. **Rich Text** — bio / description.
-6. **Overlay → Background Color** — dark semi-transparent .
+6. **Overlay → Background Color** — dark, semi-transparent.
 
-Hover par image swap + overlay + text dikhega.
+On hover, the image swaps and the overlay with text appears.
