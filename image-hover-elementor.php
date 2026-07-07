@@ -4,7 +4,7 @@
  * Plugin URI:        https://example.com/image-hover-elementor
  * Description:       Elementor widget with dual images on hover, overlay, heading and rich text — similar to the native Image widget.
  * Version:           1.0.0
- * Author:            Enorness
+ * Author:            Shahzaib Ahmed
  * Text Domain:       image-hover-elementor
  * Requires at least: 5.8
  * Requires PHP:      7.4
