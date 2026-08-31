@@ -1,6 +1,5 @@
 # Image Hover for Elementor
 
-// helo this is new commit
 A WordPress plugin that adds an Elementor widget with **normal image**, **hover image**, **overlay**, **heading**, and **rich text** support.
 
 ## Installation
